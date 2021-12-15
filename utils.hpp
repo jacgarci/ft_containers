@@ -102,9 +102,9 @@ namespace ft
                       typename iterator_traits<Iterator>::pointer,
                       typename iterator_traits<Iterator>::reference>
 	{
-		protected:
+	protected:
     		Iterator current;
-		public:
+	public:
     		typedef Iterator                                            iterator_type;
     		typedef typename iterator_traits<Iterator>::difference_type difference_type;
     		typedef typename iterator_traits<Iterator>::reference       reference;
