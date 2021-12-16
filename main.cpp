@@ -3,7 +3,10 @@
 #include <type_traits>
 #include <iostream>
 #include <typeinfo>
+#include <algorithm>
 #include "utils.hpp"
+
+#include <utility>
 
 int main()
 {
